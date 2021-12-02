@@ -2,3 +2,4 @@ input*
 data.*
 .vim/*
 */.vscode/*
+session
