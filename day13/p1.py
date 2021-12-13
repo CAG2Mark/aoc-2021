@@ -21,7 +21,7 @@ for ln in data:
 
 for fold in folds:
     print(fold)
-    for i in range(fold[1]+1, 2*fold[1]):
+    for i in range(fold[1]+1, 2*fold[1]+1):
         mirror = (fold[1] - i + fold[1])
         if mirror < 0: continue
         for j in range(N):
