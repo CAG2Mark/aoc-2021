@@ -8,25 +8,25 @@ for ch in data[0]:
 num = ''.join(num)
 # start inclusive
 def parsePacket(start, sub_length=0, sub_packets = 0):
-    print(f"-- BEGINNING OF SUB PACKET: {start}, sublen {sub_length}, subpackets {sub_packets} --")
+    # print(f"-- BEGINNING OF SUB PACKET: {start}, sublen {sub_length}, subpackets {sub_packets} --")
     versionsum = 0
     length_done = 0
 
     subpacket_vals = []
     
     while sub_length > 7 or sub_packets > 0:
-        print(f"Startpos now {start}, sublen {sub_length}, subpackets {sub_packets}")
+        # print(f"Startpos now {start}, sublen {sub_length}, subpackets {sub_packets}")
         packet_length = 0
 
         packet = num[start:]
         version = int(packet[0:3], 2)
-        print(version)
+        # print(version)
         versionsum += version
         typeid = int(packet[3:6], 2)
 
         is_operator = typeid != 4
         
-        print(packet)
+        # print(packet)
 
         if is_operator:
 
@@ -88,12 +88,12 @@ def parsePacket(start, sub_length=0, sub_packets = 0):
         sub_length -= packet_length
         sub_packets -= 1
         start += packet_length
-    print(f"-- END OF RECURSION --")
+    # print(f"-- END OF RECURSION --")
     return (versionsum, length_done, subpacket_vals)
 
 v = parsePacket(0, sub_length = len(num))
 
-print(v[2])
+print(v[2][0])
             
 
 
