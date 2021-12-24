@@ -77,5 +77,5 @@ def solve(position, cur_input, target):
 
 x = solve(0, "", 0)
 x.sort()
-print("max: ", x[0], " min: ", x[-1])
+print("min: ", x[0], " max: ", x[-1])
 # solve(5, "", 108505)
