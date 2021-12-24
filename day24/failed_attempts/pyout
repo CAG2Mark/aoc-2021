@@ -1,0 +1,351 @@
+x:0 y:0 z:0 w:0 	inp w
+x:0 y:0 z:0 w:9 	mul x 0
+x:0 y:0 z:0 w:9 	add x z
+add 0 + 0
+x:0 y:0 z:0 w:9 	mod x 26
+x:0 y:0 z:0 w:9 	div z 1
+x:0 y:0 z:0 w:9 	add x 13
+add 0 + 13
+x:13 y:0 z:0 w:9 	eql x w
+x:0 y:0 z:0 w:9 	eql x 0
+x:1 y:0 z:0 w:9 	mul y 0
+x:1 y:0 z:0 w:9 	add y 25
+add 0 + 25
+x:1 y:25 z:0 w:9 	mul y x
+x:1 y:25 z:0 w:9 	add y 1
+add 25 + 1
+x:1 y:26 z:0 w:9 	mul z y
+x:1 y:26 z:0 w:9 	mul y 0
+x:1 y:0 z:0 w:9 	add y w
+add 0 + 9
+x:1 y:9 z:0 w:9 	add y 13
+add 9 + 13
+x:1 y:22 z:0 w:9 	mul y x
+x:1 y:22 z:0 w:9 	add z y
+add 0 + 22
+x:1 y:22 z:22 w:9 	inp w
+x:1 y:22 z:22 w:9 	mul x 0
+x:0 y:22 z:22 w:9 	add x z
+add 0 + 22
+x:22 y:22 z:22 w:9 	mod x 26
+x:22 y:22 z:22 w:9 	div z 1
+x:22 y:22 z:22 w:9 	add x 11
+add 22 + 11
+x:33 y:22 z:22 w:9 	eql x w
+x:0 y:22 z:22 w:9 	eql x 0
+x:1 y:22 z:22 w:9 	mul y 0
+x:1 y:0 z:22 w:9 	add y 25
+add 0 + 25
+x:1 y:25 z:22 w:9 	mul y x
+x:1 y:25 z:22 w:9 	add y 1
+add 25 + 1
+x:1 y:26 z:22 w:9 	mul z y
+x:1 y:26 z:572 w:9 	mul y 0
+x:1 y:0 z:572 w:9 	add y w
+add 0 + 9
+x:1 y:9 z:572 w:9 	add y 10
+add 9 + 10
+x:1 y:19 z:572 w:9 	mul y x
+x:1 y:19 z:572 w:9 	add z y
+add 572 + 19
+x:1 y:19 z:591 w:9 	inp w
+x:1 y:19 z:591 w:9 	mul x 0
+x:0 y:19 z:591 w:9 	add x z
+add 0 + 591
+x:591 y:19 z:591 w:9 	mod x 26
+x:19 y:19 z:591 w:9 	div z 1
+x:19 y:19 z:591 w:9 	add x 15
+add 19 + 15
+x:34 y:19 z:591 w:9 	eql x w
+x:0 y:19 z:591 w:9 	eql x 0
+x:1 y:19 z:591 w:9 	mul y 0
+x:1 y:0 z:591 w:9 	add y 25
+add 0 + 25
+x:1 y:25 z:591 w:9 	mul y x
+x:1 y:25 z:591 w:9 	add y 1
+add 25 + 1
+x:1 y:26 z:591 w:9 	mul z y
+x:1 y:26 z:15366 w:9 	mul y 0
+x:1 y:0 z:15366 w:9 	add y w
+add 0 + 9
+x:1 y:9 z:15366 w:9 	add y 5
+add 9 + 5
+x:1 y:14 z:15366 w:9 	mul y x
+x:1 y:14 z:15366 w:9 	add z y
+add 15366 + 14
+x:1 y:14 z:15380 w:9 	inp w
+x:1 y:14 z:15380 w:9 	mul x 0
+x:0 y:14 z:15380 w:9 	add x z
+add 0 + 15380
+x:15380 y:14 z:15380 w:9 	mod x 26
+x:14 y:14 z:15380 w:9 	div z 26
+x:14 y:14 z:591 w:9 	add x -11
+add 14 + -11
+x:3 y:14 z:591 w:9 	eql x w
+x:0 y:14 z:591 w:9 	eql x 0
+x:1 y:14 z:591 w:9 	mul y 0
+x:1 y:0 z:591 w:9 	add y 25
+add 0 + 25
+x:1 y:25 z:591 w:9 	mul y x
+x:1 y:25 z:591 w:9 	add y 1
+add 25 + 1
+x:1 y:26 z:591 w:9 	mul z y
+x:1 y:26 z:15366 w:9 	mul y 0
+x:1 y:0 z:15366 w:9 	add y w
+add 0 + 9
+x:1 y:9 z:15366 w:9 	add y 14
+add 9 + 14
+x:1 y:23 z:15366 w:9 	mul y x
+x:1 y:23 z:15366 w:9 	add z y
+add 15366 + 23
+x:1 y:23 z:15389 w:9 	inp w
+x:1 y:23 z:15389 w:9 	mul x 0
+x:0 y:23 z:15389 w:9 	add x z
+add 0 + 15389
+x:15389 y:23 z:15389 w:9 	mod x 26
+x:23 y:23 z:15389 w:9 	div z 1
+x:23 y:23 z:15389 w:9 	add x 14
+add 23 + 14
+x:37 y:23 z:15389 w:9 	eql x w
+x:0 y:23 z:15389 w:9 	eql x 0
+x:1 y:23 z:15389 w:9 	mul y 0
+x:1 y:0 z:15389 w:9 	add y 25
+add 0 + 25
+x:1 y:25 z:15389 w:9 	mul y x
+x:1 y:25 z:15389 w:9 	add y 1
+add 25 + 1
+x:1 y:26 z:15389 w:9 	mul z y
+x:1 y:26 z:400114 w:9 	mul y 0
+x:1 y:0 z:400114 w:9 	add y w
+add 0 + 9
+x:1 y:9 z:400114 w:9 	add y 5
+add 9 + 5
+x:1 y:14 z:400114 w:9 	mul y x
+x:1 y:14 z:400114 w:9 	add z y
+add 400114 + 14
+x:1 y:14 z:400128 w:9 	inp w
+x:1 y:14 z:400128 w:9 	mul x 0
+x:0 y:14 z:400128 w:9 	add x z
+add 0 + 400128
+x:400128 y:14 z:400128 w:9 	mod x 26
+x:14 y:14 z:400128 w:9 	div z 26
+x:14 y:14 z:15389 w:9 	add x 0
+add 14 + 0
+x:14 y:14 z:15389 w:9 	eql x w
+x:0 y:14 z:15389 w:9 	eql x 0
+x:1 y:14 z:15389 w:9 	mul y 0
+x:1 y:0 z:15389 w:9 	add y 25
+add 0 + 25
+x:1 y:25 z:15389 w:9 	mul y x
+x:1 y:25 z:15389 w:9 	add y 1
+add 25 + 1
+x:1 y:26 z:15389 w:9 	mul z y
+x:1 y:26 z:400114 w:9 	mul y 0
+x:1 y:0 z:400114 w:9 	add y w
+add 0 + 9
+x:1 y:9 z:400114 w:9 	add y 15
+add 9 + 15
+x:1 y:24 z:400114 w:9 	mul y x
+x:1 y:24 z:400114 w:9 	add z y
+add 400114 + 24
+x:1 y:24 z:400138 w:9 	inp w
+x:1 y:24 z:400138 w:9 	mul x 0
+x:0 y:24 z:400138 w:9 	add x z
+add 0 + 400138
+x:400138 y:24 z:400138 w:9 	mod x 26
+x:24 y:24 z:400138 w:9 	div z 1
+x:24 y:24 z:400138 w:9 	add x 12
+add 24 + 12
+x:36 y:24 z:400138 w:9 	eql x w
+x:0 y:24 z:400138 w:9 	eql x 0
+x:1 y:24 z:400138 w:9 	mul y 0
+x:1 y:0 z:400138 w:9 	add y 25
+add 0 + 25
+x:1 y:25 z:400138 w:9 	mul y x
+x:1 y:25 z:400138 w:9 	add y 1
+add 25 + 1
+x:1 y:26 z:400138 w:9 	mul z y
+x:1 y:26 z:10403588 w:9 	mul y 0
+x:1 y:0 z:10403588 w:9 	add y w
+add 0 + 9
+x:1 y:9 z:10403588 w:9 	add y 4
+add 9 + 4
+x:1 y:13 z:10403588 w:9 	mul y x
+x:1 y:13 z:10403588 w:9 	add z y
+add 10403588 + 13
+x:1 y:13 z:10403601 w:9 	inp w
+x:1 y:13 z:10403601 w:9 	mul x 0
+x:0 y:13 z:10403601 w:9 	add x z
+add 0 + 10403601
+x:10403601 y:13 z:10403601 w:9 	mod x 26
+x:13 y:13 z:10403601 w:9 	div z 1
+x:13 y:13 z:10403601 w:9 	add x 12
+add 13 + 12
+x:25 y:13 z:10403601 w:9 	eql x w
+x:0 y:13 z:10403601 w:9 	eql x 0
+x:1 y:13 z:10403601 w:9 	mul y 0
+x:1 y:0 z:10403601 w:9 	add y 25
+add 0 + 25
+x:1 y:25 z:10403601 w:9 	mul y x
+x:1 y:25 z:10403601 w:9 	add y 1
+add 25 + 1
+x:1 y:26 z:10403601 w:9 	mul z y
+x:1 y:26 z:270493626 w:9 	mul y 0
+x:1 y:0 z:270493626 w:9 	add y w
+add 0 + 9
+x:1 y:9 z:270493626 w:9 	add y 11
+add 9 + 11
+x:1 y:20 z:270493626 w:9 	mul y x
+x:1 y:20 z:270493626 w:9 	add z y
+add 270493626 + 20
+x:1 y:20 z:270493646 w:9 	inp w
+x:1 y:20 z:270493646 w:9 	mul x 0
+x:0 y:20 z:270493646 w:9 	add x z
+add 0 + 270493646
+x:270493646 y:20 z:270493646 w:9 	mod x 26
+x:20 y:20 z:270493646 w:9 	div z 1
+x:20 y:20 z:270493646 w:9 	add x 14
+add 20 + 14
+x:34 y:20 z:270493646 w:9 	eql x w
+x:0 y:20 z:270493646 w:9 	eql x 0
+x:1 y:20 z:270493646 w:9 	mul y 0
+x:1 y:0 z:270493646 w:9 	add y 25
+add 0 + 25
+x:1 y:25 z:270493646 w:9 	mul y x
+x:1 y:25 z:270493646 w:9 	add y 1
+add 25 + 1
+x:1 y:26 z:270493646 w:9 	mul z y
+x:1 y:26 z:7032834796 w:9 	mul y 0
+x:1 y:0 z:7032834796 w:9 	add y w
+add 0 + 9
+x:1 y:9 z:7032834796 w:9 	add y 1
+add 9 + 1
+x:1 y:10 z:7032834796 w:9 	mul y x
+x:1 y:10 z:7032834796 w:9 	add z y
+add 7032834796 + 10
+x:1 y:10 z:7032834806 w:9 	inp w
+x:1 y:10 z:7032834806 w:9 	mul x 0
+x:0 y:10 z:7032834806 w:9 	add x z
+add 0 + 7032834806
+x:7032834806 y:10 z:7032834806 w:9 	mod x 26
+x:10 y:10 z:7032834806 w:9 	div z 26
+x:10 y:10 z:270493646 w:9 	add x -6
+add 10 + -6
+x:4 y:10 z:270493646 w:9 	eql x w
+x:0 y:10 z:270493646 w:9 	eql x 0
+x:1 y:10 z:270493646 w:9 	mul y 0
+x:1 y:0 z:270493646 w:9 	add y 25
+add 0 + 25
+x:1 y:25 z:270493646 w:9 	mul y x
+x:1 y:25 z:270493646 w:9 	add y 1
+add 25 + 1
+x:1 y:26 z:270493646 w:9 	mul z y
+x:1 y:26 z:7032834796 w:9 	mul y 0
+x:1 y:0 z:7032834796 w:9 	add y w
+add 0 + 9
+x:1 y:9 z:7032834796 w:9 	add y 15
+add 9 + 15
+x:1 y:24 z:7032834796 w:9 	mul y x
+x:1 y:24 z:7032834796 w:9 	add z y
+add 7032834796 + 24
+x:1 y:24 z:7032834820 w:9 	inp w
+x:1 y:24 z:7032834820 w:9 	mul x 0
+x:0 y:24 z:7032834820 w:9 	add x z
+add 0 + 7032834820
+x:7032834820 y:24 z:7032834820 w:9 	mod x 26
+x:24 y:24 z:7032834820 w:9 	div z 26
+x:24 y:24 z:270493646 w:9 	add x -10
+add 24 + -10
+x:14 y:24 z:270493646 w:9 	eql x w
+x:0 y:24 z:270493646 w:9 	eql x 0
+x:1 y:24 z:270493646 w:9 	mul y 0
+x:1 y:0 z:270493646 w:9 	add y 25
+add 0 + 25
+x:1 y:25 z:270493646 w:9 	mul y x
+x:1 y:25 z:270493646 w:9 	add y 1
+add 25 + 1
+x:1 y:26 z:270493646 w:9 	mul z y
+x:1 y:26 z:7032834796 w:9 	mul y 0
+x:1 y:0 z:7032834796 w:9 	add y w
+add 0 + 9
+x:1 y:9 z:7032834796 w:9 	add y 12
+add 9 + 12
+x:1 y:21 z:7032834796 w:9 	mul y x
+x:1 y:21 z:7032834796 w:9 	add z y
+add 7032834796 + 21
+x:1 y:21 z:7032834817 w:9 	inp w
+x:1 y:21 z:7032834817 w:9 	mul x 0
+x:0 y:21 z:7032834817 w:9 	add x z
+add 0 + 7032834817
+x:7032834817 y:21 z:7032834817 w:9 	mod x 26
+x:21 y:21 z:7032834817 w:9 	div z 26
+x:21 y:21 z:270493646 w:9 	add x -12
+add 21 + -12
+x:9 y:21 z:270493646 w:9 	eql x w
+x:1 y:21 z:270493646 w:9 	eql x 0
+x:0 y:21 z:270493646 w:9 	mul y 0
+x:0 y:0 z:270493646 w:9 	add y 25
+add 0 + 25
+x:0 y:25 z:270493646 w:9 	mul y x
+x:0 y:0 z:270493646 w:9 	add y 1
+add 0 + 1
+x:0 y:1 z:270493646 w:9 	mul z y
+x:0 y:1 z:270493646 w:9 	mul y 0
+x:0 y:0 z:270493646 w:9 	add y w
+add 0 + 9
+x:0 y:9 z:270493646 w:9 	add y 8
+add 9 + 8
+x:0 y:17 z:270493646 w:9 	mul y x
+x:0 y:0 z:270493646 w:9 	add z y
+add 270493646 + 0
+x:0 y:0 z:270493646 w:9 	inp w
+x:0 y:0 z:270493646 w:9 	mul x 0
+x:0 y:0 z:270493646 w:9 	add x z
+add 0 + 270493646
+x:270493646 y:0 z:270493646 w:9 	mod x 26
+x:20 y:0 z:270493646 w:9 	div z 26
+x:20 y:0 z:10403601 w:9 	add x -3
+add 20 + -3
+x:17 y:0 z:10403601 w:9 	eql x w
+x:0 y:0 z:10403601 w:9 	eql x 0
+x:1 y:0 z:10403601 w:9 	mul y 0
+x:1 y:0 z:10403601 w:9 	add y 25
+add 0 + 25
+x:1 y:25 z:10403601 w:9 	mul y x
+x:1 y:25 z:10403601 w:9 	add y 1
+add 25 + 1
+x:1 y:26 z:10403601 w:9 	mul z y
+x:1 y:26 z:270493626 w:9 	mul y 0
+x:1 y:0 z:270493626 w:9 	add y w
+add 0 + 9
+x:1 y:9 z:270493626 w:9 	add y 14
+add 9 + 14
+x:1 y:23 z:270493626 w:9 	mul y x
+x:1 y:23 z:270493626 w:9 	add z y
+add 270493626 + 23
+x:1 y:23 z:270493649 w:9 	inp w
+x:1 y:23 z:270493649 w:9 	mul x 0
+x:0 y:23 z:270493649 w:9 	add x z
+add 0 + 270493649
+x:270493649 y:23 z:270493649 w:9 	mod x 26
+x:23 y:23 z:270493649 w:9 	div z 26
+x:23 y:23 z:10403601 w:9 	add x -5
+add 23 + -5
+x:18 y:23 z:10403601 w:9 	eql x w
+x:0 y:23 z:10403601 w:9 	eql x 0
+x:1 y:23 z:10403601 w:9 	mul y 0
+x:1 y:0 z:10403601 w:9 	add y 25
+add 0 + 25
+x:1 y:25 z:10403601 w:9 	mul y x
+x:1 y:25 z:10403601 w:9 	add y 1
+add 25 + 1
+x:1 y:26 z:10403601 w:9 	mul z y
+x:1 y:26 z:270493626 w:9 	mul y 0
+x:1 y:0 z:270493626 w:9 	add y w
+add 0 + 9
+x:1 y:9 z:270493626 w:9 	add y 9
+add 9 + 9
+x:1 y:18 z:270493626 w:9 	mul y x
+x:1 y:18 z:270493626 w:9 	add z y
+add 270493626 + 18
+270493644
