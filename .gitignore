@@ -3,3 +3,4 @@ data.*
 .vim/*
 */.vscode/*
 session
+*.out

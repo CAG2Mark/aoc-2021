@@ -1,5 +1,5 @@
 #include <string>
-#include <map>
+#include <unordered_map>
 #include <vector>
 #include <iostream>
 #include <algorithm>
@@ -12,11 +12,12 @@ struct TargetInputPair {
     int pos;
 };
 
+typedef struct TargetInputPair TargetInputPair;
+
 long long get_pair_hash(TargetInputPair pair) {
     return pair.zn * 10000 + pair.I * 100 + pair.pos;
 }
 
-typedef struct TargetInputPair TargetInputPair;
 
 class Execution {
 private:
@@ -50,16 +51,16 @@ public:
             long long part2 = I + k2;
             long long target_ = target - part2;
 
-            for (long long zn = (target-2)*k3; zn <= (target+2)*k3; ++zn) {
+            for (long long zn = (target-1)*k3; zn <= (target+1)*k3; ++zn) {
                 if (valid_pair(I, zn, part2, target)) possible.push_back((TargetInputPair){zn, I, pos});
             }
-            for (long long zn = (target_-2)*k3; zn <= (target_+2)*k3; ++zn) {
+            for (long long zn = (target_-1)*k3; zn <= (target_+1)*k3; ++zn) {
                 if (valid_pair(I, zn, part2, target)) possible.push_back((TargetInputPair){zn, I, pos});
             }
-            for (long long zn = ((target-1)*k3-2)/26 - 26; zn <= ((target+1)*k3+2)/26 + 26; ++zn) {
+            for (long long zn = ((target-1)*k3-2)/26 - 13; zn <= ((target+1)*k3+1)/26 + 13; ++zn) {
                 if (valid_pair(I, zn, part2, target)) possible.push_back((TargetInputPair){zn, I, pos});
             }
-            for (long long zn = ((target_-1)*k3-2)/26 - 26; zn <= ((target_+1)*k3+2)/26 + 26; ++zn) {
+            for (long long zn = ((target_-1)*k3-2)/26 - 13; zn <= ((target_+1)*k3+1)/26 + 13; ++zn) {
                 if (valid_pair(I, zn, part2, target)) possible.push_back((TargetInputPair){zn, I, pos});
             }
         }
@@ -69,7 +70,7 @@ public:
 
 vector<Execution> executions;
 
-map<long long, vector<string>> memo;
+unordered_map<long long, vector<string>> memo;
 vector<string> solve(int position, long long target) {
     if (position == 14) {
         if (target) return vector<string>();
