@@ -1,4 +1,4 @@
-data = open("input.topaz").read().split("\n")
+data = open("input").read().split("\n")
 if not data[-1].strip(): data = data[0:-1]
 # data = [int(x) for x in data]
 
